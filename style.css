@@ -1,0 +1,660 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box
+}
+
+/*background color of the header*/
+header{
+  background-color: white;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: #22c8c2;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#C4A747;
+}
+
+a:active{
+  color: #ffd95e;
+}
+
+
+
+.navbar{
+  min-height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background-color: white;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+
+.main-div{
+  width: 100%;
+}
+
+
+.nav-link{
+  color: #22c8c2 !important;
+  transition: 0.6s ease;
+  font-size: 2rem;
+  font-weight: bold;
+ 
+}
+
+.nav-link:hover{
+  color: #C4A747;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  -webkit-transition: all 0.4s ease-in-out;
+  width: 27px;
+  height: 5px;
+  margin: 5px auto;
+  transition: all 0.4s ease-in-out;
+  background-color: gray;
+}
+
+a{
+  text-decoration: none;
+  color: #22c8c2 !important;
+}
+
+.brand-name{
+  text-decoration: none;
+  color: #C4A747 !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+
+#main{
+  background-color: #092635;
+  color: #C4A747;
+  width: 100%;
+}
+
+
+.name{
+  text-align: center;
+  color: #C4A747;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+
+
+
+.front{
+  text-align: center;
+  color: #C4A747;
+  background-color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+  
+img{
+  width: 100%;
+  height: 100%;
+  border-radius: 32%;
+  margin-top: 30px;
+}
+
+
+#cv{
+  background-color: white;
+  text-align: center;
+  width: 40%;
+  justify-content:center;
+  align-content: center;
+  font-size: larger;
+  border-radius: 10px;
+  color: #092635;
+  margin-top: 20px;
+}
+
+
+#cv:hover{
+  background-color: #C4A747;
+}
+
+.svg-div{
+  display: flex;
+  background-color: white;
+  width: 50%;
+  margin-top: 30px;
+  font-size: large;
+  border-radius: 2px;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  justify-self:center;
+  color: #092635;
+}
+
+  
+.Career{
+  font-size: 2rem; 
+  background-color: white;
+  color: #092635;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  top: 29px;
+  text-align: center;
+}
+
+
+.what-i-do{
+  text-align: center;
+  margin-top: 30px;
+  flex-direction: column;
+  background-color: white;
+  color: #092635;
+  gap: 10px;
+  width: 100%;
+}
+
+.skill{
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #178582;
+  position: relative;
+  top: 20px;
+  color: #C4A747;
+  font-size: large;
+  font-weight: bold;
+}
+
+.footer{
+  position: relative;
+  top: 70px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.all-skill{
+  display: grid;
+  gap: 5px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background-color: #178582;
+}
+   
+
+  
+svg{
+  fill: black;
+  background-color: white;
+  border-radius: 10px;
+  width: auto;
+}
+
+.html-sv{
+  margin-top: 10px;
+  align-items: center;
+  justify-items: center;
+  background-color: #178582;
+}
+
+
+
+.footer{
+  background-color: #092635;
+  color:#C4A747;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.a-div{
+  align-self: center;
+  justify-self: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.css-sv{
+  margin-top: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.bootstrap-sv{
+  margin-top: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.javascript-sv{
+  margin-top: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.nodejs-sv{
+  margin-top: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.footer{
+  display: grid;
+  gap: 30px;
+  text-align: center;
+  place-items: center;
+}
+
+.first-ul{
+  margin-left: -20px;
+}
+
+.copy{
+  color: #C4A747;
+  position: relative;
+  top: 50px;
+  margin-left: 10px;
+}   
+
+.logo{
+  width: 100px;
+  position: relative;
+  left: 40%;
+  
+  
+  
+}
+
+.logo-div{
+  height: 80px;
+  height: 80px;
+  background-color: #092635;
+}
+  
+
+  
+
+.web::first-line{
+  color: #C4A747;
+  font-weight: bold;
+}
+
+
+.web{
+  background-color: whitesmoke;
+  border: 2px solid whitesmoke;
+  font-size: 19px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.responsiveness{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.responsiveness{
+  height: 30%;
+  width: 30%px;
+}
+
+    
+@media(max-width:768px){
+  .hamburger{
+    display: block;
+  }
+
+  .hamburger.active.bar:nth-child(2){
+    opacity: 0;
+  }
+  
+  .hamburger.active.bar:nth-child(1){
+    transform: translateY(7px) rotate(45deg);
+  }
+  
+  .hamburger.active.bar:nth-child(3){
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .nav-menu{
+    width: 100%;
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item{
+    margin: 15px 0;
+    
+  }
+
+  
+
+  .nav-menu.active{
+    left: 0;
+  }
+
+  .hamburger{
+    position: relative;
+    left: -10px;
+    background-color: whitesmoke;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    min-width: 60px;
+  }
+
+  .nav-link{
+    text-decoration: none;
+    font-size: 2rem;
+  }
+
+ 
+  .name{
+   text-align: center;
+   color: #C4A747;
+   font-size: 2rem;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: bold;
+  }
+
+
+  .what-i-do{
+    display: grid;
+    gap: 13.01px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    place-items: center;
+    width: 100%;
+     
+  }
+
+  .all-skill{
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+
+  
+}
+
+@media(min-width:768px){
+  .logo{
+    width: 100px;
+    position: relative;
+    left: 44%;
+    
+    
+    
+  }
+  
+  .logo-div{
+    height: 80px;
+    height: 80px;
+    background-color: #092635;
+  }
+}
+
+
+@media(min-width: 820px){
+    
+  .name{
+    font-size: 5rem;
+  }
+
+  .front{
+    font-size: 4rem;
+  }
+  
+  .what-i-do{
+    display: flex;
+    flex-direction: column;
+  
+  } 
+    
+
+  .my-pic{
+    height: 60%;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    border: 2px solid #092635;
+    
+    
+  }
+
+  #cv{
+    font-size: 3rem;
+  }
+
+
+  .svg-div{
+    display: flex;
+    gap: 15px;
+  }
+
+  svg{
+    height: 50px;
+    width: 50px;
+    fill: #092635;
+   
+  }
+  
+
+  .career{
+    font-size: 2.7rem !important;
+  }
+
+  .what-i-do{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 19px;
+    
+  }
+
+  .skill{
+    font-size: 2.7rem;
+  }
+
+  .all-skill{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px; 
+  }
+
+  .sv{
+    background-color: whitesmoke;
+    min-height: 300px;
+    min-width: 300px;
+    gap: 10px;
+    border: 2px solid whitesmoke;
+    align-content: center;
+    align-items: center;
+  }
+
+  .sv:hover{
+     background-color: #C4A747;
+  }
+
+
+  .web{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .what-i-do{
+  display: grid;
+	gap: 14px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	place-items: center;
+	width: 100%
+  }
+  
+  .web::first-line{
+    color: #C4A747;
+    font-weight: bold;
+  }
+
+  .logo{
+    width: 100px;
+    position: relative;
+    left: 46%;
+    
+    
+    
+  }
+  
+  .logo-div{
+    height: 80px;
+    height: 80px;
+    background-color: #092635;
+  }
+  
+  
+}
+
+@media(min-width: 1024px){
+  .front{
+    width: 40%;
+    position: relative;
+    top: 200px;
+    z-index: 2;
+    font-size: 3.5rem;
+    width: 50;
+    left: 60px;
+    
+    
+  }
+
+  .name{
+    font-size: 3.6rem;
+    width: 60%;
+    position: relative;
+    top: 200px;
+    z-index: 2;
+    left: -29px;
+    margin-left: 10px;
+  }
+
+  .my-pic{
+    width: 40%;
+    height: 40%;
+    position: relative;
+    left: 610px;
+    border: 2px solid black;
+  }
+
+
+  #cv{
+    width: auto;
+    margin-left: 20px;
+    position: relative;
+    top: -50px;
+  }
+
+  .svg-div{
+    width: auto;
+  }
+}
+
+@media(min-width: 1280px){
+  body{
+    font-size: 20px;
+  }
+
+  .my-pic{
+    width: 35%;
+    height: 35%;
+    position: relative;
+    left: 800PX;
+  }
+  .name{
+    font-size: 5rem;
+    width: auto;
+    position: relative;
+    left: -200PX;
+  }
+
+  .front{
+    width: 55%;
+    font-size: 4rem;
+  }
+}
+
+@media(min-width: 1440px){
+  body{
+    font-size: 20px;
+  }
+
+  .my-pic{
+    width: 35%;
+    height: 35%;
+    position: relative;
+    left: 1050PX;
+    top: -80px;
+  }
+  .name{
+    font-size: 6rem;
+    width: auto;
+    position: relative;
+    left: -300PX;
+  }
+
+  .front{
+    width: 55%;
+    font-size: 5.5rem;
+  }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+body{
+  background-color: black;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 300px;    
+    min-width: 200px;
+    min-height: 250px;
+    background-color:whitesmoke;
+    margin-top: 100px;
+    text-align: center;
+    align-content: center;
+    place-items: center;
+
+    
+}
+
+.gmail{
+    background-color: black;
+    color: white;
+    min-width: 80%;
+    background-color: black;
+    min-width: 80%;
+    position: relative;
+    left: 10%;
+    color: white;
+    min-height: 100px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    align-content: center;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.phone{
+    background-color: black;
+    min-width: 80%;
+    position: relative;
+    left: 10%;
+    color: white;
+    min-height: 100px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.whatsapp{
+    background-color: black;
+    color: white;
+    min-width: 80%;
+    position: relative;
+    left: 10%;
+    min-height: 100px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    align-content: center;
+    border: 2px solid black;
+    margin-top: 10px;
+    
+
+}
+
+
+@media(min-width:767px){
+  .main{
+   display: grid;
+	 gap: 5px;
+	 grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	 place-items: center;
+	 width: 100%;
+   margin-top: 200px;
+  }
+
+  .gmail{
+    position: relative;
+    left: -30px;
+    cursor: pointer;
+  }
+
+  .phone{
+    position: relative;
+    left: -30px;
+    cursor: pointer;
+  }
+
+  .whatsapp{
+    position: relative;
+    left: -30px;
+    cursor: pointer;
+    
+  }
+}
